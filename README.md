@@ -38,7 +38,7 @@ Adicione as permissões necessárias ao seu `AndroidManifest.xml`:
 
 ```xml
 <uses-permission android:name="android.permission.INTERNET" />
-<!-- Adicione outras permissões se for tocar áudio em segundo plano -->
+<uses-permission android:name="android.permission.WAKE_LOCK" />
 ```
 
 ### iOS
