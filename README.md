@@ -1,13 +1,13 @@
 # Player Plugin
 
-Um plugin Flutter para reprodução de áudio, projetado para ser modular e eficiente. A interface do usuário (UI) é construída com Flutter, enquanto a lógica de reprodução de áudio é implementada nativamente em Kotlin (usando ExoPlayer) e Swift (usando AVPlayer) para máxima performance e integração com o sistema.
+Plugin Capoeira Music para execução dos áudios do projeto. A interface do usuário (UI) é construída com Flutter, enquanto a lógica de reprodução de áudio é implementada nativamente em Kotlin (usando ExoPlayer) e Swift (usando AVPlayer).
 
 ## Arquitetura
 
 Este plugin utiliza a abordagem de Platform Channels:
 
 - **Interface (Flutter):** Uma UI customizável e de alta performance, escrita uma única vez em Dart.
-- **Funcionalidade (Nativo):** Acesso direto às APIs de áudio mais poderosas de cada plataforma (ExoPlayer/AVPlayer), permitindo funcionalidades robustas como reprodução em segundo plano, controles na tela de bloqueio e gerenciamento de interrupções.
+- **Funcionalidade (Nativo):** Acesso direto às APIs de áudio de cada plataforma (ExoPlayer/AVPlayer), permitindo funcionalidades como reprodução em segundo plano, controles na tela de bloqueio e gerenciamento de interrupções.
 
 ## Funcionalidades
 
@@ -21,7 +21,7 @@ Este plugin utiliza a abordagem de Platform Channels:
 
 ## Instalação
 
-Adicione esta linha ao `pubspec.yaml` do seu projeto:
+Incluir ao `pubspec.yaml` do projeto principal:
 
 ```yaml
 dependencies:
@@ -54,7 +54,7 @@ Adicione as chaves necessárias ao seu `Info.plist`:
 
 ## Como Usar
 
-Aqui está um exemplo básico de como usar o player:
+O uso do player no app principal ainda será alinhado:
 
 ```dart
 import 'package:flutter/material.dart';
